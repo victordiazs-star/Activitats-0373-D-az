@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>La meva pàgina personal</title>
+</head>
+<body>
+    <header>
+        <h1>La meva pàgina personal</h1>
+        <p>Estudiant d'ASIX, aficionat a la informàtica, al futbol i a la música.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contacta'm</h2>
+            <form>
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom" placeholder="Escriu el teu nom" required>
+
+                <br><br>
+
+                <label for="correu">Correu electrònic:</label>
+                <input type="email" id="correu" name="correu" placeholder="Escriu el teu correu" required>
+
+                <br><br>
+
+                <label for="missatge">Missatge:</label>
+                <br>
+                <textarea id="missatge" name="missatge" rows="5" cols="30"
+                    placeholder="Escriu el teu missatge" required></textarea>
+
+                <br><br>
+
+                <button type="submit">Envia</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>El meu horari</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Activitat</th>
+                        <th>Hora</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dilluns</td>
+                        <td>Estudiar xarxes</td>
+                        <td>16:00</td>
+                    </tr>
+                    <tr>
+                        <td>Dimecres</td>
+                        <td>Practicar HTML</td>
+                        <td>17:00</td>
+                    </tr>
+                    <tr>
+                        <td>Divendres</td>
+                        <td>Jugar a futbol</td>
+                        <td>19:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Un vídeo que m'agrada</h2>
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/wzhk9-k7Sk8"
+                title="Quevedo: BZRP Music Sessions, Vol. 52"
+                allowfullscreen>
+            </iframe>
+        </section>
+
+        <section>
+            <h2>Les meves preferències</h2>
+            <ul>
+                <li>Aprendre sobre informàtica i xarxes</li>
+                <li>Escoltar música</li>
+                <li>Jugar a futbol amb els amics</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Pàgina creada per Víctor Díaz Simón.</p>
+    </footer>
+</body>
+</html>

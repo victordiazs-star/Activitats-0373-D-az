@@ -1,0 +1,46 @@
+<h1>Formulari amb validació</h1>
+
+<form>
+    <label for="nom">Nom:</label>
+    <input
+        type="text"
+        id="nom"
+        name="nom"
+        required>
+
+    <br><br>
+
+    <label for="correu">Correu electrònic:</label>
+    <input
+        type="email"
+        id="correu"
+        name="correu"
+        required>
+
+    <br><br>
+
+    <label for="contrasenya">Contrasenya:</label>
+    <input
+        type="password"
+        id="contrasenya"
+        name="contrasenya"
+        minlength="8"
+        required>
+
+    <br><br>
+
+    <label for="telefon">Número de telèfon:</label>
+    <input
+        type="tel"
+        id="telefon"
+        name="telefon"
+        pattern="[0-9]{9}"
+        maxlength="9"
+        inputmode="numeric"
+        title="Introdueix exactament 9 dígits"
+        required>
+
+    <br><br>
+
+    <button type="submit">Enviar</button>
+</form>
